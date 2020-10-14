@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organica</title>
+    <link rel="icon" href="Assets\favicon-16x16.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat+Alternates:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <script>
+        $(document).ready(function () {
+
+            $(".product-section").hover(function () {
+                $(".product-para").show();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="container-fluid mx-0 px-0 bg-light">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand " href="#">Organica</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link mr-5" href="#" alt="4454">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link mr-5" href="#about">About</a>
+                    <a class="nav-item nav-link mr-5" href="#products">Products</a>
+                    <a class="nav-item nav-link mr-5" href="#reviews">Reviews</a>
+                    <a class="nav-item nav-link mr-5 pr-auto" href="#">Contact</a>
+                </div>
+            </div>
+        </nav>
+ 
+
+        <div class="row mx-0 home-section">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                <h1 class="home-text1 ">Organica Herbal CO.</h1>
+                <h3 class="h2 home-text2 ">One-stop Health & Beauty Shop </h3>
+                <a href="#about" class="fas fa-long-arrow-alt-down"></a>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 second-div">
+                <img src="Assets\homesection-1.jpg" alt="" class="responsive img-fluid home-img">
+
+
+            </div>
+
+        </div>
+
+        <div class="row mx-0 about-section" id="about">
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 second-div">
+                <img src="Assets/aboutsection-1.jpg" alt="" class="responsive img-fluid about-img">
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                <h1 class="about-text1 ">Herbal Beauty CO.</h1>
+                <h3 class="h4 about-text2 ">We are your ultimate source of the best health and beauty products in the
+                    market. We are advocates of true beauty and only carry products that we believe in. </h3>
+                <button type="button" class="btn btn-ligh about-btn px-auto"
+                    onclick="window.location.href='#products'">LEARN MORE</button>
+
+            </div>
+        </div>
+
+        <div class="row mx-0 product-section" id="products">
+
+            <div class="container-fluid mx-0">
+                <h1 class="product-heading  "> PRODUCT CATEGORIES</h1>
+            </div>
+
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12  product-cat ">
+                <h3 class="productcat-text">Beauty Products</h3>
+                <img src="Assets/productimg-1.jpg" alt="" class="responsive product-img img-fluid">
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12  product-cat">
+                <h3 class="productcat-text">Health Products</h3>
+                <img src="Assets/productimg-2.jpg" alt="" class="responsive product-img">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12  product-cat">
+                <h3 class="productcat-text" >Wellness Products</h3>
+                <img src="Assets/productimg-3.jpg" alt="" class="responsive product-img">
+            </div>
+
+            <div class=" product-para mx-auto text-center  ">
+                <h4 class="paratext">From beauty products to skincare, we are offering exclusive range of organic
+                    products</h4>
+            </div>
+
+        </div>
+
+        <div class="row mx-0 reviews-section" id="reviews">
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12  ">
+                <h2 class="review-heading"> CUSTOMER REVIEWS</h2>
+                <a href="#contact" class="fas fa-long-arrow-alt-down review-arrow"></a>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
+                <img src="Assets/review-img.jpg" alt="" class="review-img mr-auto">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mt-4 ">
+
+                <div class="review-div mb-5 ">
+                    <h3 class="review-h3">Best for your health! I love these products!</h3>
+                    <h4 class="review-h4">~ Alexis Wellington, Stylist</h4>
+                </div>
+
+                <div class="review-div mb-5 ">
+                    <h3 class="review-h3">These are best beauty products for healthy skin!</h3>
+                    <h4 class="review-h4">~ Nicolo Vasquez, Actor</h4>
+                </div>
+
+                <div class="review-div">
+                    <h3 class="review-h3">Simply the best! I am a regular buyer and I love these products!</h3>
+                    <h4 class="review-h4">~ Tessa Ann Turner, Blogger</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row mx-0 contact-section1" id="contact">
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                <h3 class="contact-h1">We have great customer support!</h3>
+                <h4 class="contact-h2"> We don't make sales, we make relationships!</h4>
+                <h5 class="contact-h3"> Share your view on any product or give us your valuable feedback.</h5>
+
+                <button type="button" class="btn  contact-btn px-auto"
+                    onclick="window.location.href='#contact2'">Contact Us</button>
+
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                <img src="Assets/undraw_Work_time_re_hdyv.svg" alt="" class="contact-img1 mx-auto ">
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row mx-0 contact-section2" id="contact2">
+
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                <img src="Assets/contactimg2.jpg" alt="" class="contact-img2 mx-auto">
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+
+                <h1 class="contact2-heading">CONTACT US</h1>
+
+                <h3 class="contact2-h1">Mailing Address</h3>
+                <h4 class="contact2-h2"> 123 Anywhere St.
+                    Karachi, PK</h4>
+
+                <h3 class="contact2-h1">Email Address</h3>
+                <h4 class="contact2-h2"> hello@Organica.com</h4>
+
+                <h3 class="contact2-h1">Phone Number</h3>
+                <h4 class="contact2-h2"> +923179551407</h4>
+
+
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer ">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 my-2 ">Developed By InnovaWeb Studio
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+
+
+    </div>
+
+    
+</body>
+
+</html>
